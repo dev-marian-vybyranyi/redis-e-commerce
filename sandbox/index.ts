@@ -6,13 +6,11 @@ const run = async () => {
 		color: 'red',
 		year: 1950
 	});
-
-	const car = await client.hGetAll('car#43535345');
-	if (!car) {
-		console.log('Car not found');
-        return;
+	const car = await client.hGetAll('car');
+	if (Object.keys(car).length === 0) {
+		console.log('Car nout found, respond with 404');
+		return;
 	}
-
 	console.log(car);
 };
 run();

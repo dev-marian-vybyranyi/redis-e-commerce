@@ -16,6 +16,9 @@ const config = {
 				alias: {
 					$services: resolve('./src/services')
 				}
+			},
+			ssr: {
+				noExternal: ['chart.js', 'chartjs-adapter-luxon']
 			}
 		}
 	}

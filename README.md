@@ -19,12 +19,12 @@ Rbay is a practice project designed to explore and implement various e-commerce 
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Utilities**: `ioredis`, `faker-js`, `luxon`
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Node.js (v16.x or later recommended)
 - A running Redis instance (Local or Cloud)
 
-## ⚙️ Installation
+## Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -43,7 +43,7 @@ Rbay is a practice project designed to explore and implement various e-commerce 
     cp .env.example .env
     ```
 
-## 📄 Environment Variables Example
+## Environment Variables Example
 
 Ensure your `.env` file contains the following variables to connect to your Redis instance:
 
@@ -53,7 +53,7 @@ REDIS_PORT=12345
 REDIS_PW=your-secure-password
 ```
 
-## 🏃‍♂️ Available Scripts
+## Available Scripts
 
 - `npm run dev`: Starts the SvelteKit development server.
 - `npm run seed`: Seeds the Redis database with initial mock data (Users, Items, Bids).
@@ -61,7 +61,7 @@ REDIS_PW=your-secure-password
 - `npm run cli`: Runs the interactive CLI tool for managing the project.
 - `npm run sandbox`: Runs a playground script for testing Redis operations.
 
-## 📁 Project Structure
+## Project Structure
 
 - `/src/services/queries`: Contains all Redis query logic (Sessions, Bids, Items, etc.).
 - `/src/services/redis`: Redis client configuration and connection logic.

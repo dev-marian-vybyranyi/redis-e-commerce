@@ -2,7 +2,7 @@
 
 Rbay is a practice project designed to explore and implement various e-commerce features using **Redis** as the primary data store and caching layer. This project demonstrates how Redis can be used for session management, real-time bidding, item caching, user tracking, and more.
 
-## 🚀 Key Features (Redis Powered)
+##  Key Features (Redis Powered)
 
 - **Session Management**: Fast and reliable user sessions stored in Redis.
 - **Real-time Bidding**: High-performance bidding system utilizing Redis sorted sets and concurrency control.
@@ -11,7 +11,7 @@ Rbay is a practice project designed to explore and implement various e-commerce 
 - **Background Jobs**: Asynchronous task processing for various e-commerce operations.
 - **Seeding & Simulation**: Includes tools to seed the database with mock data and simulate user behavior.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend/Backend**: [SvelteKit](https://kit.svelte.dev/)
 - **Database/Cache**: [Redis](https://redis.io/)

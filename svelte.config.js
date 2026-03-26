@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-node';
+import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
 import { resolve } from 'path';
 
@@ -10,7 +10,7 @@ const config = {
 
 	kit: {
 		floc: true,
-		adapter: adapter({ out: 'dist' }),
+		adapter: adapter(),
 		vite: {
 			resolve: {
 				alias: {

@@ -1,4 +1,7 @@
 export async function streamToString(stream: any) {
+	if (!stream) {
+		return '';
+	}
 	const chunks = [];
 	for await (const chunk of stream) {
 		chunks.push(Buffer.from(chunk));
